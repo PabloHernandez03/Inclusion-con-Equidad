@@ -46,7 +46,7 @@ export default function DashBoardView() {
           <div className="text-center text-2xl text-acido font-bold">
             <p>
               Inclusión con Equidad A.C.
-            </p> justify-center
+            </p>
             <p>
               "A favor de las personas con discapacidad"
             </p>
