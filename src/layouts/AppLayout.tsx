@@ -32,7 +32,7 @@ export default function AppLayout() {
           <a href="https://www.youtube.com/channel/UCBL7NBoFff31WfRIf3IVGYg" className="mx-2 text-white flex gap-4 items-center hover:text-acido">
             <FontAwesomeIcon icon={faYoutube} size="2x" className="text-acido" /> Inclusión con Equidad Asociación Civil
           </a>
-          <a href="https://x.com/inclusioncequid" className="mx-2 text-white flex gap-4 items-center hover:text-acido">
+          <a href="https://x.com/InclusionEquida" className="mx-2 text-white flex gap-4 items-center hover:text-acido">
             <FontAwesomeIcon icon={faXTwitter} size="2x" className="text-acido" /> Inclusión con Equidad
           </a>
           <a href="tel: // 5543597236" className="mx-2 text-white flex gap-4 items-center hover:text-acido">
