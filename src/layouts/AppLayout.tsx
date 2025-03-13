@@ -10,10 +10,10 @@ export default function AppLayout() {
   return (
     <>
       <header className="bg-caverna">
-        <div className="max-w-screen-2xl mx-auto flex flex-col md:flex-row justify-center items-center p-4 gap-4">
+        <div className="max-w-screen-2xl mx-auto flex flex-col md:flex-row justify-center items-center p-2 gap-4">
           <Logo />
         </div>
-        <div className="max-w-screen-2xl mx-auto flex flex-col md:flex-row justify-center items-center p-4 gap-4">
+        <div className="max-w-screen-2xl mx-auto flex flex-col md:flex-row justify-center items-center p-2 gap-4">
           <NavMenu />
         </div>
       </header>
@@ -25,7 +25,7 @@ export default function AppLayout() {
       </section>
 
       <footer className="py-5 bg-caverna">
-        <div className="flex justify-center mt-4">
+        <div className="flex flex-col justify-center m-4 md:flex-row md:justify-center">
           <a href="https://www.facebook.com/inclusionconequidadac/" className="mx-2 text-white flex gap-4 items-center hover:text-acido">
             <FontAwesomeIcon icon={faFacebook} size="2x" className="text-acido" /> Inclusión con equidad A. C.
           </a>
@@ -39,7 +39,7 @@ export default function AppLayout() {
             <FontAwesomeIcon icon={faPhone} size="2x" className="text-acido" /> 55-4359-7236
           </a>
         </div>
-        <div className="mt-8 text-center text-white mx-16">
+        <div className="mt-8 text-center text-white mx-8 md:mx-16">
           <h2 className="text-lg font-bold">Aviso de Privacidad</h2>
           <p className="text-sm"><strong>Inclusión con Equidad Asociación Civil</strong>, mejor conocido como <strong>Inclusión con Equidad A.C.</strong>, con domicilio en <strong>Calle Contadores 34, colonia Nueva Rosita, Iztapalapa, C.P. 09420, Ciudad de México, México</strong>, y portal de internet <strong>www.inclusionconequidad.org.mx</strong>, es el responsable del uso y protección de sus datos personales, y al respecto le informamos lo siguiente:</p>
           <p className="text-sm mt-4 font-bold">¿Para qué fines utilizamos sus datos personales?</p>

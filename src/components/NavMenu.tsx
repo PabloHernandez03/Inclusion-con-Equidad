@@ -6,7 +6,7 @@ export default function NavMenu() {
             <NavLink
                 to="/"
                 className={({ isActive }) =>
-                    `bg-acido text-caverna font-bold border border-caverna hover:bg-caverna hover:text-acido hover:border-acido p-2 px-3 rounded-sm ${isActive ? 'text-[#ffd801] border-acido bg-caverna' : ''}`
+                    `bg-caverna text-acido font-bold border border-acido hover:bg-acido hover:text-caverna p-2 px-3 rounded-sm ${isActive ? 'text-caverna bg-[#FFD801]' : ''}`
                 }
             >
                 Inicio
@@ -14,7 +14,7 @@ export default function NavMenu() {
             <NavLink
                 to="/lo-nuevo"
                 className={({ isActive }) =>
-                    `bg-acido text-caverna font-bold border border-caverna hover:bg-caverna hover:text-acido hover:border-acido p-2 px-3 rounded-sm ${isActive ? 'text-[#ffd801] border-acido bg-caverna' : ''}`
+                    `bg-caverna text-acido font-bold border border-acido hover:bg-acido hover:text-caverna p-2 px-3 rounded-sm ${isActive ? 'text-caverna bg-[#FFD801]' : ''}`
                 }
             >
                 Lo Nuevo
@@ -22,7 +22,7 @@ export default function NavMenu() {
             <NavLink
                 to="/turismo-inclusivo"
                 className={({ isActive }) =>
-                    `bg-acido text-caverna font-bold border border-caverna hover:bg-caverna hover:text-acido hover:border-acido p-2 px-3 rounded-sm ${isActive ? 'text-[#ffd801] border-acido bg-caverna' : ''}`
+                    `bg-caverna text-acido font-bold border border-acido hover:bg-acido hover:text-caverna p-2 px-3 rounded-sm ${isActive ? 'text-caverna bg-[#FFD801]' : ''}`
                 }
             >
                 Turismo Inclusivo
@@ -30,7 +30,7 @@ export default function NavMenu() {
             <NavLink
                 to="/deporte-inclusivo"
                 className={({ isActive }) =>
-                    `bg-acido text-caverna font-bold border border-caverna hover:bg-caverna hover:text-acido hover:border-acido p-2 px-3 rounded-sm ${isActive ? 'text-[#ffd801] border-acido bg-caverna' : ''}`
+                    `bg-caverna text-acido font-bold border border-acido hover:bg-acido hover:text-caverna p-2 px-3 rounded-sm ${isActive ? 'text-caverna bg-[#FFD801]' : ''}`
                 }
             >
                 Deporte Inclusivo
@@ -38,7 +38,7 @@ export default function NavMenu() {
             <NavLink
                 to="/acceso-informacion"
                 className={({ isActive }) =>
-                    `bg-acido text-caverna font-bold border border-caverna hover:bg-caverna hover:text-acido hover:border-acido p-2 px-3 rounded-sm ${isActive ? 'text-[#ffd801] border-acido bg-caverna' : ''}`
+                    `bg-caverna text-acido font-bold border border-acido hover:bg-acido hover:text-caverna p-2 px-3 rounded-sm ${isActive ? 'text-caverna bg-[#FFD801]' : ''}`
                 }
             >
                 Acceso a la Información
@@ -46,7 +46,7 @@ export default function NavMenu() {
             <NavLink
                 to="/capacitacion"
                 className={({ isActive }) =>
-                    `bg-acido text-caverna font-bold border border-caverna hover:bg-caverna hover:text-acido hover:border-acido p-2 px-3 rounded-sm ${isActive ? 'text-white border-acido bg-caverna' : ''}`
+                    `bg-caverna text-acido font-bold border border-acido hover:bg-acido hover:text-caverna p-2 px-3 rounded-sm ${isActive ? 'text-white border-caverna bg-acido' : ''}`
                 }
             >
                 Capacitación
@@ -54,7 +54,7 @@ export default function NavMenu() {
             <NavLink
                 to="/donativos"
                 className={({ isActive }) =>
-                    `bg-acido text-caverna font-bold border border-caverna hover:bg-caverna hover:text-acido hover:border-acido p-2 px-3 rounded-sm ${isActive ? 'text-white border-acido bg-caverna' : ''}`
+                    `bg-caverna text-acido font-bold border border-acido hover:bg-acido hover:text-caverna p-2 px-3 rounded-sm ${isActive ? 'text-white border-caverna bg-acido' : ''}`
                 }
             >
                 Donativos
@@ -62,7 +62,7 @@ export default function NavMenu() {
             <NavLink
                 to="/consejo-directivo"
                 className={({ isActive }) =>
-                    `bg-acido text-caverna font-bold border border-caverna hover:bg-caverna hover:text-acido hover:border-acido p-2 px-3 rounded-sm ${isActive ? 'text-white border-acido bg-caverna' : ''}`
+                    `bg-caverna text-acido font-bold border border-acido hover:bg-acido hover:text-caverna p-2 px-3 rounded-sm ${isActive ? 'text-white border-caverna bg-acido' : ''}`
                 }
             >
                 Consejo Directivo
@@ -70,7 +70,7 @@ export default function NavMenu() {
             <NavLink
                 to="/actividades"
                 className={({ isActive }) =>
-                    `bg-acido text-caverna font-bold border border-caverna hover:bg-caverna hover:text-acido hover:border-acido p-2 px-3 rounded-sm ${isActive ? 'text-white border-acido bg-caverna' : ''}`
+                    `bg-caverna text-acido font-bold border border-acido hover:bg-acido hover:text-caverna p-2 px-3 rounded-sm ${isActive ? 'text-white border-caverna bg-acido' : ''}`
                 }
             >
                 Actividades
@@ -78,7 +78,7 @@ export default function NavMenu() {
             <NavLink
                 to="/viajes"
                 className={({ isActive }) =>
-                    `bg-acido text-caverna font-bold border border-caverna hover:bg-caverna hover:text-acido hover:border-acido p-2 px-3 rounded-sm ${isActive ? 'text-white border-acido bg-caverna' : ''}`
+                    `bg-caverna text-acido font-bold border border-acido hover:bg-acido hover:text-caverna p-2 px-3 rounded-sm ${isActive ? 'text-white border-caverna bg-acido' : ''}`
                 }
             >
                 Viajes
