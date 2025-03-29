@@ -1,5 +1,3 @@
-import { Carousel } from 'react-responsive-carousel';
-import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import QuienesSomos from '@/views/QuienesSomos';
 import React from 'react';
 
@@ -8,27 +6,8 @@ export default function DashBoardView() {
 
   return (
     <>
-      <div className="flex flex-wrap justify-center">
-        {/* Carrusel con Imagenes de la Asociación */}
-        <Carousel autoPlay interval={3000} infiniteLoop stopOnHover swipeable showThumbs={false}>
-          <div>
-            <img src="/img/img (4).jpg" alt="Consejo Directivo" />
-            {/* <p className="legend">Image 1</p> */}
-          </div>
-          <div>
-            <img src="/img/img (3).jpg" alt="Viajero con perro guía" />
-            {/* <p className="legend">Image 2</p> */}
-          </div>
-          <div>
-            <img src="/img/img (2).jpg" alt="Foto grupal en Nayarit de nuestro viajes" />
-            {/* <p className="legend">Image 3</p> */}
-          </div>
-          <div>
-            <img src="/img/img (1).jpg" alt="Hombre sosteniendo celular en frente de los ojos a modo de lentes, en el celular hay una imagen de unos ojos con nubosidad haciendo parecer que son los ojos del hombre, al fondo se observa el cartel con los símbolos de discapacidad" />
-            {/* <p className="legend">Image 3</p> */}
-          </div>
-        </Carousel>
-      </div>
+      {/* Quienes somos */}
+      <QuienesSomos />
       {/* Video de Youtube y Noticia sobre el Tifloencuentro */}
       <div className="flex flex-wrap justify-center m-4 rounded-3xl">
         <div className="w-full md:w-1/2">
@@ -52,7 +31,9 @@ export default function DashBoardView() {
             </p>
           </div>
         </div>
-        <div className="w-full mt-4 pt-10 bg-caverna text-white">
+        
+      </div>
+      <div className="w-full my-4 pt-10 bg-caverna text-white">
           <div className="text-center text-2xl text-acido font-bold mb-4">
           <h3>
               ¡Inclusión con Equidad A.C. fue el anfitrión seleccionado para el IX Tifloencuentro Riviera Maya 2019!
@@ -126,9 +107,6 @@ export default function DashBoardView() {
                 </button>
             </div>
         </div>
-      </div>
-      {/* Quienes somos */}
-      <QuienesSomos />
     </>
   );
 }
